@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DASHBORD ADMIN</string>
+    <string name="id">id</string>
+
+    <string-array name="Tipe_Transaksi">
+        <item>Pemasukan</item>
+        <item>Pengeluaran</item>
+    </string-array>
+
+    <string-array name="Kategori_Transaksi">
+        <item>Infaq</item>
+        <item>Sedekah</item>
+        <item>Operasional</item>
+        <item>Jasa</item>
+        <item>Admin</item>
+    </string-array>
+</resources>

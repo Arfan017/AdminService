@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".modul.Detail.Detail_Keuangan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvsaldosekarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/TglTransaksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:text="Tanggal"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/FieldTipeTransaksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TglTransaksi"
+                    android:paddingBottom="7dp"
+                    android:text="Tipe Transaksi           : " />
+
+                <TextView
+                    android:id="@+id/TipeTransaksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TglTransaksi"
+                    android:layout_toRightOf="@+id/FieldTipeTransaksi"
+                    android:paddingBottom="7dp"
+                    android:text="Transaksi" />
+
+                <TextView
+                    android:id="@+id/FieldKategoriTransaksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/FieldTipeTransaksi"
+                    android:paddingBottom="7dp"
+                    android:text="Kategori Transaksi    : " />
+
+                <TextView
+                    android:id="@+id/KategoriTransaksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TipeTransaksi"
+                    android:layout_toRightOf="@+id/FieldKategoriTransaksi"
+                    android:paddingBottom="7dp"
+                    android:text="Transaksi" />
+
+                <TextView
+                    android:id="@+id/FieldJumlah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/FieldKategoriTransaksi"
+                    android:paddingBottom="7dp"
+                    android:text="Jumlah                       : " />
+
+                <TextView
+                    android:id="@+id/JumlahTransaksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/KategoriTransaksi"
+                    android:layout_toRightOf="@+id/FieldJumlah"
+                    android:paddingBottom="7dp"
+                    android:text="Jumlah" />
+
+<!--                <TextView-->
+<!--                    android:id="@+id/FieldSaldoSekarang"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/FieldJumlah"-->
+<!--                    android:paddingBottom="7dp"-->
+<!--                    android:text="saldo sekarang         : " />-->
+
+                <TextView
+                    android:id="@+id/saldo_sekarang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/FieldJumlah"
+                    android:layout_toRightOf="@+id/FieldSaldoSekarang"
+                    android:paddingBottom="7dp"
+                    android:text="saldo_sekarang" />
+
+<!--                <TextView-->
+<!--                    android:id="@+id/FieldSaldoAkhir"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/FieldSaldoSekarang"-->
+<!--                    android:paddingBottom="7dp"-->
+<!--                    android:text="saldo Akhir                : " />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/saldo_terakhir"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/FieldSaldoSekarang"-->
+<!--                    android:layout_toRightOf="@+id/FieldSaldoAkhir"-->
+<!--                    android:paddingBottom="7dp"-->
+<!--                    android:text="saldoAkhir" />-->
+
+                <TextView
+                    android:id="@+id/FieldKeteragan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/FieldJumlah"
+                    android:paddingBottom="7dp"
+                    android:text="Keterangan               : " />
+
+                <TextView
+                    android:id="@+id/KeteranganTransaksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/FieldJumlah"
+                    android:layout_toRightOf="@+id/FieldKeteragan"
+                    android:paddingBottom="7dp"
+                    android:text="Keterangan" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/setuju"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:backgroundTint="#B4C6BC"
+                android:drawableLeft="@drawable/setuju"
+                android:text="SETUJU"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/tolak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#B4C6BC"
+                android:drawableLeft="@drawable/tolak"
+                android:text="TIDAK"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

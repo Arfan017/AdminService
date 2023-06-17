@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835612209070",
+    "project_id": "sisteminformasimasjid-53793",
+    "storage_bucket": "sisteminformasimasjid-53793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835612209070:android:a0d9357c78f9757ffba23f",
+        "android_client_info": {
+          "package_name": "com.example.adminservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835612209070-biidkqepno5ksmqhblc8es0o19filnuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPlDbHx45WWlN72NeWqwM4xi9xgNV__YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835612209070-biidkqepno5ksmqhblc8es0o19filnuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

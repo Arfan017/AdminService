@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/TVtgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tanggal"/>
+
+        <TextView
+            android:id="@+id/FieldNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TVtgl"
+            android:text="Nama Khotib          : " />
+
+        <TextView
+            android:id="@+id/penc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TVtgl"
+            android:layout_toRightOf="@id/FieldNama"
+            android:text="Nama Pengurus" />
+
+        <TextView
+            android:id="@+id/FieldJabatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FieldNama"
+            android:text="Tema Ceramah      : " />
+
+        <TextView
+            android:id="@+id/temc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/penc"
+            android:layout_toRightOf="@id/FieldJabatan"
+            android:text="Jabatan" />
+
+        <TextView
+            android:id="@+id/FieldNoHp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FieldJabatan"
+            android:text="Imam                       : " />
+
+        <TextView
+            android:id="@+id/imamm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/temc"
+            android:layout_toRightOf="@id/FieldNoHp"
+            android:text="No Hp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

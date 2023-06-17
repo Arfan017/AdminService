@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rec"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/imgKegiatan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/tvTgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgKegiatan"
+            android:text="Tanggal kegiatan" />
+
+        <TextView
+            android:id="@+id/Filedkegiatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTgl"
+            android:layout_toRightOf="@+id/imgKegiatan"
+            android:text="Kegiatan                      : " />
+
+        <TextView
+            android:id="@+id/tvkegiatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTgl"
+            android:layout_toRightOf="@+id/Filedkegiatan"
+            android:text="Nama Kegiatan" />
+
+        <TextView
+            android:id="@+id/FiledPenanggungJwb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Filedkegiatan"
+            android:layout_toRightOf="@+id/imgKegiatan"
+            android:text="Penanggung Jawab  : " />
+
+        <TextView
+            android:id="@+id/tvPenanggungJwb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvkegiatan"
+            android:layout_toRightOf="@+id/FiledPenanggungJwb"
+            android:maxLines="1"
+            android:text="Penanggung Jawab" />
+
+        <ImageView
+            android:id="@+id/imgstatus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/imgwait"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

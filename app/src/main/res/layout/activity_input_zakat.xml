@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tidakdipake.Input_Zakat"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="INPUT DATA ZAKAT"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:shadowColor="#40000000"
+        android:layout_marginBottom="55dp"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:fontFamily="sans-serif-black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Pemberian"
+            />
+
+        <EditText
+            android:id="@+id/idzakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="ID ZAKAT"
+            android:inputType="number"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Zakat"
+            />
+
+        <EditText
+            android:id="@+id/jeniszakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="JENIS ZAKAT"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Pemberian"
+            />
+
+        <EditText
+            android:id="@+id/jumlahberi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="JUMLAH BERI"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Pemberian"
+            />
+
+        <EditText
+            android:id="@+id/hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="WAKTU MEMBAYAR"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/exi"
+                android:textColor="@color/black"
+                android:background="@drawable/cusbut"
+                android:text="BATAL"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/svv"
+                android:text="SAVE"
+                android:textColor="@color/black"
+                android:background="@drawable/cusbut"
+                android:layout_marginLeft="70dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

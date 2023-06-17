@@ -1,0 +1,6 @@
+POST
+{BASE_URL}/input_kegiatan.php
+
+# Headers
+@Content-Type: application/x-www-form-urlencoded
+id_kegiatan={id_kegiatan}&hari={hari}&waktu={waktu}&kegiatan={kegiatan}&penangungjwb={penangungjwb}

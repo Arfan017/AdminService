@@ -1,0 +1,6 @@
+POST
+{BASE_URL}/iput_pengurus.php
+
+# Headers
+@Content-Type: application/x-www-form-urlencoded
+id_pengurus={id_pengurus}&nama_pengurus={nama_pengurus}&jabatan={jabatan}&no_hp={no_hp}

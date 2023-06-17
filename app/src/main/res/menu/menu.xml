@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+        android:id="@+id/ip"
+        android:icon="@drawable/input"
+        android:title="input" />
+        <item
+        android:id="@+id/input"
+        android:icon="@drawable/input"
+        android:title="input" />
+    <item
+        android:id="@+id/edit"
+        android:icon="@drawable/edit1"
+        android:title="edit" />
+    <item
+        android:id="@+id/del"
+        android:icon="@drawable/del"
+        android:title="delet" />
+    <item
+        android:id="@+id/keluar"
+        android:icon="@drawable/log"
+        android:title="keluar" />
+
+
+
+</menu>

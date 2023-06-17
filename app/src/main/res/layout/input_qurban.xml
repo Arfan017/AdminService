@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tidakdipake.Input_Kurban"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="INPUT DATA QURBAN"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:shadowColor="#40000000"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:fontFamily="sans-serif-black"
+        android:lineHeight="40sp"
+        android:layout_marginBottom="55dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/idqurban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID QURBAN"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/pemberiiqur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PEMBERI QURBAN"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/jenishewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="JENIS HEWAN"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/exi"
+                android:textColor="@color/black"
+                android:background="@drawable/cusbut"
+                android:text="BATAL" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/svv"
+                android:text="SAVE"
+                android:textColor="@color/black"
+                android:background="@drawable/cusbut"
+                android:layout_marginLeft="50dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

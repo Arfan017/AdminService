@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tidakdipake.Activity_Kurban"
+    android:background="@drawable/bk">
+    <ImageView
+        android:id="@+id/loh_out"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:src="@drawable/log" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/re"
+        android:layout_below="@+id/loh_out"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/listqurban"/>
+
+    <ImageView
+        android:id="@+id/tm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/tambah"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+GET
+{BASE_URL}/data_zakat.php
+
+
+
+
+%%%
+# GET
+# /data_zakat.php
+
+# Error: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found

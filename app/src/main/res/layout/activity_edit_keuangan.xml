@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tidakdipake.Edit_Keuangan"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EDIT DATA KEUANGAN"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:shadowColor="#40000000"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:fontFamily="sans-serif-black"
+        android:lineHeight="40sp"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/id_keuangan"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="ID KEUANGAN"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:drawablePadding="10dp"
+        android:background="#FFFF"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/pemberi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAMA PEMBERI"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="NO HP"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:textColor="@color/black"
+        android:drawablePadding="10dp"
+        />
+    <EditText
+        android:id="@+id/harian"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="ALAMAT"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black" />
+
+
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="JUMLAH"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:textColor="@color/black"
+        android:drawablePadding="10dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="TANGGAL PEMBERIAN"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/exi"
+            android:textColor="@color/black"
+            android:background="@drawable/cusbut"
+            android:text="BATAL"
+            android:layout_marginLeft="75dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/svv"
+            android:text="EDIT"
+            android:textColor="@color/black"
+            android:background="@drawable/cusbut"
+            android:layout_marginLeft="70dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Sekretaris.Edit_Petugas_Jumat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="55dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#40000000"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:text="EDIT DATA PETUGAS JUM'AT"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal" />
+
+    <EditText
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="TANGGAL" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Khotib" />
+
+    <EditText
+        android:id="@+id/penceramah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="NAMA PENCERAMAH" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tema Ceramah" />
+
+    <EditText
+        android:id="@+id/tema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="TEMA CERAMAH" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Imam" />
+
+    <EditText
+        android:id="@+id/imam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="NAMA IMAM" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Muadzin" />
+
+    <EditText
+        android:id="@+id/adzan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="PETUGAS ADZAN" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/svv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B4C6BC"
+            android:drawableLeft="@drawable/edit1"
+            android:text="EDIT" />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:drawableLeft="@drawable/ic_delete"
+            android:backgroundTint="#B4C6BC"
+            android:text="HAPUS" />
+
+    </LinearLayout>
+
+</LinearLayout>
