@@ -9,6 +9,9 @@ public class Konfigurasi {
     //Token
     public static final String URL_TOKEN = url + "add_token.php";
 
+    // Login
+    public static final String URL_LOGIN = url + "login.php";
+
     // Keuangan
     public static final String URL_GET_KEUANGAN = url + "get_semua_keuangan.php";
     public static final String URL_ADD_KEUANGAN = url + "add_M_keuangan.php";

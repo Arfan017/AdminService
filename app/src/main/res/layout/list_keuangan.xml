@@ -18,45 +18,44 @@
             android:id="@+id/tv_tgl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="tgl keluar/mauk"
-            android:layout_marginBottom="11dp"/>
+            android:layout_marginBottom="11dp"
+            android:text="tgl keluar/mauk" />
 
         <TextView
-            android:layout_below="@+id/tv_tgl"
             android:id="@+id/tv_tipe_transaksi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tipe Transaksi           : "/>
+            android:layout_below="@+id/tv_tgl"
+            android:text="Tipe Transaksi           : " />
 
         <TextView
-            android:layout_below="@+id/tv_tipe_transaksi"
             android:id="@+id/Jumlah_Transaksi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jumlah Transaksi      : "/>
+            android:layout_below="@+id/tv_tipe_transaksi"
+            android:text="Jumlah Transaksi      : " />
 
         <TextView
             android:id="@+id/Transaksi"
-            android:layout_below="@+id/tv_tgl"
-            android:layout_toRightOf="@id/tv_tipe_transaksi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tipe Transaksi"/>
+            android:layout_below="@+id/tv_tgl"
+            android:layout_toRightOf="@id/tv_tipe_transaksi"
+            android:text="Tipe Transaksi" />
 
         <TextView
             android:id="@+id/Jumlah"
-            android:layout_below="@+id/Transaksi"
-            android:layout_toRightOf="@id/Jumlah_Transaksi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jumlah Transaksi"/>
+            android:layout_below="@+id/Transaksi"
+            android:layout_toRightOf="@id/Jumlah_Transaksi"
+            android:text="Jumlah Transaksi" />
 
-        <ImageView
-            android:id="@+id/imgstatus"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:src="@drawable/imgwait"
-            android:layout_alignParentRight="true"/>
+                <ImageView
+                    android:id="@+id/imgstatus"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
 

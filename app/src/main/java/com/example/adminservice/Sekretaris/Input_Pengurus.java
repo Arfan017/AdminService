@@ -40,7 +40,6 @@ public class Input_Pengurus extends AppCompatActivity implements View.OnClickLis
         actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#B4C6BC")));
 
-//        idp = findViewById(R.id.idpeng);
         namp = findViewById(R.id.namapeng);
         jabatann = findViewById(R.id.jabatan);
         nohp = findViewById(R.id.nohp);
@@ -87,14 +86,11 @@ public class Input_Pengurus extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.svv:
-//                id = idp.getText().toString();
+
                 nam = namp.getText().toString();
                 jab = jabatann.getText().toString();
                 nop = nohp.getText().toString();
 
-//                if(id.length()==0){
-//                    idp.setError("Harus Diisi");
-//                }
                 if(nam.length()==0) {
                     namp.setError("Harus Diisi");
                 }else if(jab.length()==0) {
@@ -117,25 +113,3 @@ public class Input_Pengurus extends AppCompatActivity implements View.OnClickLis
         }
     }
 }
-
-
-//    private void getantar(String idp, String namp,String jabatan, String nope) {
-//
-//        apiInterface = Apiclient.getClient().create(ApiInterface.class);
-//        Call<dtpengurus> cs = apiInterface.urus(idp, namp,jabatan, nope);
-//        cs.enqueue(new Callback<dtpengurus>() {
-//            @Override
-//            public void onResponse(Call<dtpengurus> call, Response<dtpengurus> response) {
-//
-//                if (response.body() != null && response.isSuccessful() && response.body().isStatus()) {
-//                    Toast.makeText(Input_Pengurus.this, response.body().getMessage(), Toast.LENGTH_SHORT).show();
-//                } else {
-//                    Toast.makeText(Input_Pengurus.this, response.body().getMessage(), Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//            @Override
-//            public void onFailure(Call<dtpengurus> call, Throwable t) {
-//                Toast.makeText(Input_Pengurus.this, t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//    }
